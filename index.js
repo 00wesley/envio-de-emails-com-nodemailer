@@ -17,7 +17,7 @@ const mailOptions = {
     from: 'ppa.teste@outlook.com',
     to: 'wnascimento.dev@gmail.com',
     subject: 'Teste de Email via Node.js',
-    text: 'Olá, este é um teste de envio de e-mail usando Node.js e nodemailer teste!'
+    text: 'Olá, este é um teste de envio de e-mail usando Node.js e nodemailer!'
 };
 
 transporter.sendMail(mailOptions, (error, info) => {
