@@ -1,0 +1,17 @@
+{
+  "name": "envio_de_email",
+  "version": "1.0.0",
+  "description": "Envio de email usando a biblioteca do nodemailer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "\"node app.js\""
+  },
+  "author": "Wesley Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^3.0.2"
+  }
+}
