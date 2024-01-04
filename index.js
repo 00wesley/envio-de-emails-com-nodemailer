@@ -1,12 +1,11 @@
 import nodemailer from 'nodemailer';
 
 const transporter = nodemailer.createTransport({
-    host: 'smtp.office365.com',
-    port: 587,
-    secure: false, 
+    host: 'seu_host',
+    port: sua porta, 
     auth: {
-        user: 'ppa.teste@outlook.com',
-        pass: 'nodemailerPPA'
+        user: 'seu e-mail',
+        pass: 'sua senha'
     },
     tls: {
         ciphers: 'SSLv3'
@@ -14,8 +13,8 @@ const transporter = nodemailer.createTransport({
 });
 
 const mailOptions = {
-    from: 'ppa.teste@outlook.com',
-    to: 'wnascimento.dev@gmail.com',
+    from: 'seu e-mail cadastrado',
+    to: 'e-mail de quem vai receber',
     subject: 'Teste de Email via Node.js',
     text: 'Olá, este é um teste de envio de e-mail usando Node.js e nodemailer!'
 };
